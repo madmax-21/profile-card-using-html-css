@@ -1,46 +1,33 @@
-body {
+body{
     background-color: hsl(185, 75%, 39%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-image: url('bg-top.svg'), url('bg-bottom.svg');
-    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
-    background-repeat: no-repeat, no-repeat;
+    font-family: 'Kumbh sans', sans-serif;
 }
 
 .all{
     background-color: hsl(225, 10%, 92%);
-    border-radius: 1rem;
-    width: 23.438rem;
+    border-radius: 15px;
+    width: 360px;
     max-width: 100%;
     height: auto;
 }
 
-.all::after{
-    content: "";
-    width: 100%;
-    height: .03rem;
-    background-color: #d2d2d295;
-    border-radius: 0.5rem;
-    margin-top: .6rem;
-}
-
 .card{
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 15px 15px 0 0;
     width: 100%;
     display: block;
-    
 }
 
 .pfp{
     border-radius: 100%;
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -3.125rem; 
+    margin-top: -33px;
     border: 7px solid hsl(225, 10%, 92%);
 }
 
@@ -53,7 +40,7 @@ body {
 
 .name{
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 18px;
 }
 
 .age{
@@ -63,7 +50,7 @@ body {
 
 .location{
     text-align: center;
-    margin-top: -0.438rem;
+    margin-top: -3px;
     color: hsla(227, 10%, 46%, 0.586);
 }
 
@@ -71,7 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.125rem;
+    padding: 2px;
 }
 
 .stats-b{
@@ -83,19 +70,17 @@ body {
 
 .numb{
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 18px;
 }
 
 .mean{
     margin-top: -10px;
     color: hsla(227, 10%, 46%, 0.586);
-    font-size: .7rem;
+    font-size: 12px;
     font-weight: small;
+    margin-bottom: 1.5rem;
 }
 
 hr{
     color: hsla(227, 10%, 46%, 0.114);
-    margin-top: 1.25rem;
 }
-
-
